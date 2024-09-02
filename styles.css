@@ -38,7 +38,7 @@ ul {
 }
 .thumbnail {
   display: inline-block;
-  height: auto;
-  width: 100%;
+  height: 200px;
+  width: 300px;
   margin: 5px;
 }
