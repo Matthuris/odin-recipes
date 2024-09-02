@@ -2,21 +2,43 @@
   text-align: center;
 }
 
+body {
+  background-color: #000080;
+}
+a {
+  color: black;
+}
 ul {
   list-style-type: none;
   padding: 0%;
   margin: 0%;
 }
 
+.heading {
+  border: 1px black;
+  background-color: grey;
+  width: 400px;
+  margin: auto;
+  margin-bottom: 20px;
+  border: 10px groove green;
+}
+
 .list-box {
   margin-left: auto;
   margin-right: auto;
-
-  max-width: fit-content;
-  max-height: fit-content;
-  background-color: grey;
+  border: 10px ridge black;
+  padding: 1em;
+  max-width: 300px;
+  height: fit-content;
+  background-color: green;
 }
 
 .font {
   font-family: "Courier New", sans-serif;
+}
+.thumbnail {
+  display: inline-block;
+  height: auto;
+  width: 100%;
+  margin: 5px;
 }
